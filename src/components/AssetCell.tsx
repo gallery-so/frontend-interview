@@ -14,6 +14,7 @@ export function AssetCell({ asset }: Props) {
         <span className="font-medium">{asset.contractName}</span>
       </div>
 
+      {/* YOUR CODE GOES HERE */}
       <div className="aspect-square bg-zinc-200"></div>
     </Card>
   );
