@@ -8,7 +8,7 @@ type Props = {
 export function AssetCell({ asset }: Props) {
   return (
     <Card className="flex flex-col divide-y-2 space-y-3 divide-black pt-4 overflow-hidden">
-      <div className="text-sm px-4">
+      <div className="text-sm px-4 text-ellipsis whitespace-nowrap overflow-hidden">
         <span className="font-medium">{asset.title}&nbsp;</span>
         <span>from&nbsp;</span>
         <span className="font-medium">{asset.contractName}</span>
